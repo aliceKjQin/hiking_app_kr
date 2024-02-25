@@ -134,7 +134,6 @@ class HikingWishlist {
 
   addItem(id, trails) {
     const trail = trails.find((item) => item.id === id);
-    console.log(trail)
     const {name, district} = trail;
     
     // check if a trail is already in the wishlist
@@ -196,7 +195,6 @@ const addToWishlistBtns = document.getElementsByClassName("add-to-wishlist-btn")
 
 const listenAllAddToWlBtns = () => {
   [...addToWishlistBtns].forEach((btn) => {
-    console.log("hello")
     btn.addEventListener("click", (event) => {
       wishlist.addItem(Number(event.target.id), trails);
       totalNumberOfTrails.textContent = wishlist.getCounts()
