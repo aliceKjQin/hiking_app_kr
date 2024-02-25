@@ -51,6 +51,10 @@ body {
     background-image: linear-gradient(var(--dark-blue), var(--dark-pink));
 }
 
+.filter-btn {
+    cursor: pointer;
+}
+
 #wishlist-btn {
     position: absolute;
     top: 0;
@@ -63,7 +67,7 @@ body {
 
 #wishlist-container {
     display: none;
-    position: absolute;
+    position: fixed;
     top: 60px;
     right: 0;
     background-color: var(--light-grey);
