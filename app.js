@@ -193,7 +193,7 @@ class HikingWishlist {
 const wishlist = new HikingWishlist();
 const addToWishlistBtns = document.getElementsByClassName("add-to-wishlist-btn");
 
-const listenAllAddToWlBtns = () => {
+const listenAllAddToWlBtnAndUpdateWl = () => {
   [...addToWishlistBtns].forEach((btn) => {
     btn.addEventListener("click", (event) => {
       wishlist.addItem(Number(event.target.id), trails);
@@ -202,7 +202,8 @@ const listenAllAddToWlBtns = () => {
   });
 }
 
-listenAllAddToWlBtns()
+// listen to all the add-to-wishlist btn and update the wishlist instance when addEventListener is fired, this function is called at once after the index.html is finished loading
+listenAllAddToWlBtnAndUpdateWl()
 
 wlBtn.addEventListener("click", () => {
   // reset the boolean value (i.e. true to false or false to true)
@@ -213,13 +214,16 @@ wlBtn.addEventListener("click", () => {
 
 clearWlBtn.addEventListener("click", wishlist.clearWishlist.bind(wishlist));
 
+// filter hiking trails
 filterHikingTrailsBtn.addEventListener("click", () => {
   filterTrails("hiking");
-  // re-adding all add-to-wishlist btns as the trail-card-container was cleared after filter btn clicked
-  listenAllAddToWlBtns()
+  // re-listen all add-to-wishlist btn as the trail-card-container is cleared to empty after filterTrails is called
+  listenAllAddToWlBtnAndUpdateWl()
 });
 
+// filter walking trails
 filterWalkingTrailsBtn.addEventListener("click", () => {
   filterTrails("walking");
-  listenAllAddToWlBtns()
+  // re-listen all add-to-wishlist btn as the trail-card-container is cleared to empty after filterTrails is called
+  listenAllAddToWlBtnAndUpdateWl()
 });
