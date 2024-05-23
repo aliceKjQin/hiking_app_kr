@@ -1,9 +1,13 @@
-import TrailListings from "../components/TrailListings"
+import TrailListings from "../components/TrailListings";
+import WishlistCart from "../components/WishlistCart";
 
 const TrailsPage = () => {
   return (
-    <TrailListings />
-  )
-}
+    <>
+      <WishlistCart />
+      <TrailListings />
+    </>
+  );
+};
 
-export default TrailsPage
+export default TrailsPage;

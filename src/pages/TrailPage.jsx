@@ -1,12 +1,15 @@
 import { useState, useEffect } from "react";
-import TrailListing from "../components/TrailListing";
-import { useParams } from "react-router-dom";
+import { Link, useParams } from "react-router-dom";
 import Spinner from "../components/Spinner";
+import { useContext } from "react";
+import { WishlistContext } from "../WishlistContext";
+import { FaArrowLeft } from "react-icons/fa";
 
 const TrailPage = () => {
   const { id } = useParams();
   const [trail, setTrail] = useState(null);
   const [loading, setLoading] = useState(true);
+  const { addToWishlist } = useContext(WishlistContext);
 
   useEffect(() => {
     const fetchTrail = async () => {
@@ -29,12 +32,12 @@ const TrailPage = () => {
     <>
       <section>
         <div className="container m-auto py-6 px-6">
-          <a
-            href="/jobs.html"
-            className="text-emerald-500 hover:text-emerald-600 flex items-center"
+          <Link
+            to="/trails"
+            className="text-emerald-700 hover:text-emerald-800 flex items-center"
           >
-            <i className="fas fa-arrow-left mr-2"></i> Back to Trails Listings
-          </a>
+            <FaArrowLeft className="mr-1" />Back to Trails Listings
+          </Link>
         </div>
       </section>
 
@@ -48,7 +51,7 @@ const TrailPage = () => {
                 <div className="text-gray-500 mb-4 flex align-middle justify-center md:justify-start">
                   <i className="fa-solid fa-location-dot text-lg text-orange-700 mr-2"></i>
                   <p className="text-orange-700">{trail.district}</p>
-                  <button className="bg-emerald-500 hover:bg-emerald-600 text-white px-3 py-1 rounded-lg ml-auto">
+                  <button className="bg-emerald-500 hover:bg-emerald-600 text-white px-3 py-1 rounded-lg ml-auto" onClick={()=>addToWishlist(trail)}>
                     Add to wishlist
                   </button>
                 </div>

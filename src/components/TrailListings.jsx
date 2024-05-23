@@ -10,9 +10,7 @@ const TrailListings = ({ isHome = false }) => {
   useEffect(() => {
     const fetchTrails = async () => {
       // Fetch 3 trails only on the home page, /api is defined in vite.config.js
-      const apiUrl = isHome
-        ? "/api/trails?_limit=3"
-        : "/api/trails";
+      const apiUrl = isHome ? "/api/trails?_limit=3" : "/api/trails";
       try {
         const res = await fetch(apiUrl);
         const data = await res.json();
