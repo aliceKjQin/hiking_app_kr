@@ -1,0 +1,326 @@
+{
+  "trails": [
+    {
+      "id": 1,
+      "name": "Yongma Mountain",
+      "district": "Jungnang-gu",
+      "type": "hiking",
+      "difficulty": "Easy",
+      "length": "6",
+      "description": "Yongma Mountain is a small mountain located in the eastern part of Seoul. It is a popular hiking destination for locals and tourists alike. The mountain offers a variety of hiking trails that cater to all skill levels, from beginners to experienced hikers. The mountain is also home to a number of temples and shrines, making it a great place to explore Korean culture and history. The mountain is easily accessible by public transportation, making it a convenient destination for a day trip from Seoul.",
+      "images": [
+        {
+          "id": 1,
+          "url": "/public/images/yongma/imagePlaceholder1.jpg"
+        },
+        {
+          "id": 2,
+          "url": "/public/images/yongma/imagePlaceholder2.jpg"
+        },
+        {
+          "id": 3,
+          "url": "/public/images/yongma/imagePlaceholder3.jpg"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Mangusan Mountain",
+      "district": "Jungnang-gu",
+      "type": "hiking",
+      "difficulty": "Easy",
+      "length": "6",
+      "description": "Yongma Mountain is a small mountain located in the eastern part of Seoul. It is a popular hiking destination for locals and tourists alike. The mountain offers a variety of hiking trails that cater to all skill levels, from beginners to experienced hikers. The mountain is also home to a number of temples and shrines, making it a great place to explore Korean culture and history. The mountain is easily accessible by public transportation, making it a convenient destination for a day trip from Seoul.",
+      "images": [
+        {
+          "id": 1,
+          "url": "/public/images/yongma/imagePlaceholder1.jpg"
+        },
+        {
+          "id": 2,
+          "url": "/public/images/yongma/imagePlaceholder2.jpg"
+        },
+        {
+          "id": 3,
+          "url": "/public/images/yongma/imagePlaceholder3.jpg"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Achasan Mountain",
+      "district": "Jungnang-gu",
+      "type": "hiking",
+      "difficulty": "Easy",
+      "length": "6",
+      "description": "Yongma Mountain is a small mountain located in the eastern part of Seoul. It is a popular hiking destination for locals and tourists alike. The mountain offers a variety of hiking trails that cater to all skill levels, from beginners to experienced hikers. The mountain is also home to a number of temples and shrines, making it a great place to explore Korean culture and history. The mountain is easily accessible by public transportation, making it a convenient destination for a day trip from Seoul.",
+      "images": [
+        {
+          "id": 1,
+          "url": "/public/images/yongma/imagePlaceholder1.jpg"
+        },
+        {
+          "id": 2,
+          "url": "/public/images/yongma/imagePlaceholder2.jpg"
+        },
+        {
+          "id": 3,
+          "url": "/public/images/yongma/imagePlaceholder3.jpg"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "name": "Mangusan",
+      "district": "Jungnang-gu",
+      "type": "hiking",
+      "difficulty": "Moderate",
+      "length": "6",
+      "description": "Yongma Mountain is a small mountain located in the eastern part of Seoul. It is a popular hiking destination for locals and tourists alike. The mountain offers a variety of hiking trails that cater to all skill levels, from beginners to experienced hikers. The mountain is also home to a number of temples and shrines, making it a great place to explore Korean culture and history. The mountain is easily accessible by public transportation, making it a convenient destination for a day trip from Seoul.",
+      "images": [
+        {
+          "id": 1,
+          "url": "/public/images/yongma/imagePlaceholder1.jpg"
+        },
+        {
+          "id": 2,
+          "url": "/public/images/yongma/imagePlaceholder2.jpg"
+        },
+        {
+          "id": 3,
+          "url": "/public/images/yongma/imagePlaceholder3.jpg"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "name": "Buramsan Mountain",
+      "district": "Nowon-gu",
+      "type": "hiking",
+      "difficulty": "Moderate",
+      "length": "6",
+      "description": "Yongma Mountain is a small mountain located in the eastern part of Seoul. It is a popular hiking destination for locals and tourists alike. The mountain offers a variety of hiking trails that cater to all skill levels, from beginners to experienced hikers. The mountain is also home to a number of temples and shrines, making it a great place to explore Korean culture and history. The mountain is easily accessible by public transportation, making it a convenient destination for a day trip from Seoul.",
+      "images": [
+        {
+          "id": 1,
+          "url": "/public/images/yongma/imagePlaceholder1.jpg"
+        },
+        {
+          "id": 2,
+          "url": "/public/images/yongma/imagePlaceholder2.jpg"
+        },
+        {
+          "id": 3,
+          "url": "/public/images/yongma/imagePlaceholder3.jpg"
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "name": "Suraksan Mountain",
+      "district": "Nowon-gu",
+      "type": "hiking",
+      "difficulty": "Moderate",
+      "length": "6",
+      "description": "Yongma Mountain is a small mountain located in the eastern part of Seoul. It is a popular hiking destination for locals and tourists alike. The mountain offers a variety of hiking trails that cater to all skill levels, from beginners to experienced hikers. The mountain is also home to a number of temples and shrines, making it a great place to explore Korean culture and history. The mountain is easily accessible by public transportation, making it a convenient destination for a day trip from Seoul.",
+      "images": [
+        {
+          "id": 1,
+          "url": "/public/images/yongma/imagePlaceholder1.jpg"
+        },
+        {
+          "id": 2,
+          "url": "/public/images/yongma/imagePlaceholder2.jpg"
+        },
+        {
+          "id": 3,
+          "url": "/public/images/yongma/imagePlaceholder3.jpg"
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "name": "Baebongsan Mountain",
+      "district": "Dongdeamun-gu",
+      "type": "hiking",
+      "difficulty": "Moderate",
+      "length": "6",
+      "description": "Yongma Mountain is a small mountain located in the eastern part of Seoul. It is a popular hiking destination for locals and tourists alike. The mountain offers a variety of hiking trails that cater to all skill levels, from beginners to experienced hikers. The mountain is also home to a number of temples and shrines, making it a great place to explore Korean culture and history. The mountain is easily accessible by public transportation, making it a convenient destination for a day trip from Seoul.",
+      "images": [
+        {
+          "id": 1,
+          "url": "/public/images/yongma/imagePlaceholder1.jpg"
+        },
+        {
+          "id": 2,
+          "url": "/public/images/yongma/imagePlaceholder2.jpg"
+        },
+        {
+          "id": 3,
+          "url": "/public/images/yongma/imagePlaceholder3.jpg"
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "name": "Dobongsan Mountain",
+      "district": "Dobong-gu",
+      "type": "hiking",
+      "difficulty": "Easy",
+      "length": "6",
+      "description": "Yongma Mountain is a small mountain located in the eastern part of Seoul. It is a popular hiking destination for locals and tourists alike. The mountain offers a variety of hiking trails that cater to all skill levels, from beginners to experienced hikers. The mountain is also home to a number of temples and shrines, making it a great place to explore Korean culture and history. The mountain is easily accessible by public transportation, making it a convenient destination for a day trip from Seoul.",
+      "images": [
+        {
+          "id": 1,
+          "url": "/public/images/yongma/imagePlaceholder1.jpg"
+        },
+        {
+          "id": 2,
+          "url": "/public/images/yongma/imagePlaceholder2.jpg"
+        },
+        {
+          "id": 3,
+          "url": "/public/images/yongma/imagePlaceholder3.jpg"
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "name": "Bukhansan Mountain",
+      "district": "Gangbuk-gu",
+      "type": "hiking",
+      "difficulty": "Easy",
+      "length": "6",
+      "description": "Yongma Mountain is a small mountain located in the eastern part of Seoul. It is a popular hiking destination for locals and tourists alike. The mountain offers a variety of hiking trails that cater to all skill levels, from beginners to experienced hikers. The mountain is also home to a number of temples and shrines, making it a great place to explore Korean culture and history. The mountain is easily accessible by public transportation, making it a convenient destination for a day trip from Seoul.",
+      "images": [
+        {
+          "id": 1,
+          "url": "/public/images/yongma/imagePlaceholder1.jpg"
+        },
+        {
+          "id": 2,
+          "url": "/public/images/yongma/imagePlaceholder2.jpg"
+        },
+        {
+          "id": 3,
+          "url": "/public/images/yongma/imagePlaceholder3.jpg"
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "name": "Bugaksan Mountain",
+      "district": "Jongno-gu",
+      "type": "hiking",
+      "difficulty": "Easy",
+      "length": "6",
+      "description": "Yongma Mountain is a small mountain located in the eastern part of Seoul. It is a popular hiking destination for locals and tourists alike. The mountain offers a variety of hiking trails that cater to all skill levels, from beginners to experienced hikers. The mountain is also home to a number of temples and shrines, making it a great place to explore Korean culture and history. The mountain is easily accessible by public transportation, making it a convenient destination for a day trip from Seoul.",
+      "images": [
+        {
+          "id": 1,
+          "url": "/public/images/yongma/imagePlaceholder1.jpg"
+        },
+        {
+          "id": 2,
+          "url": "/public/images/yongma/imagePlaceholder2.jpg"
+        },
+        {
+          "id": 3,
+          "url": "/public/images/yongma/imagePlaceholder3.jpg"
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "name": "Inwangsan Mountain",
+      "district": "Jongno-gu",
+      "type": "hiking",
+      "difficulty": "Easy",
+      "length": "6",
+      "description": "Yongma Mountain is a small mountain located in the eastern part of Seoul. It is a popular hiking destination for locals and tourists alike. The mountain offers a variety of hiking trails that cater to all skill levels, from beginners to experienced hikers. The mountain is also home to a number of temples and shrines, making it a great place to explore Korean culture and history. The mountain is easily accessible by public transportation, making it a convenient destination for a day trip from Seoul.",
+      "images": [
+        {
+          "id": 1,
+          "url": "/public/images/yongma/imagePlaceholder1.jpg"
+        },
+        {
+          "id": 2,
+          "url": "/public/images/yongma/imagePlaceholder2.jpg"
+        },
+        {
+          "id": 3,
+          "url": "/public/images/yongma/imagePlaceholder3.jpg"
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "name": "Namsan Mountain",
+      "district": "Jung-gu",
+      "type": "hiking",
+      "difficulty": "Hard",
+      "length": "6",
+      "description": "Yongma Mountain is a small mountain located in the eastern part of Seoul. It is a popular hiking destination for locals and tourists alike. The mountain offers a variety of hiking trails that cater to all skill levels, from beginners to experienced hikers. The mountain is also home to a number of temples and shrines, making it a great place to explore Korean culture and history. The mountain is easily accessible by public transportation, making it a convenient destination for a day trip from Seoul.",
+      "images": [
+        {
+          "id": 1,
+          "url": "/public/images/yongma/imagePlaceholder1.jpg"
+        },
+        {
+          "id": 2,
+          "url": "/public/images/yongma/imagePlaceholder2.jpg"
+        },
+        {
+          "id": 3,
+          "url": "/public/images/yongma/imagePlaceholder3.jpg"
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "name": "Bongsan Mountain",
+      "district": "Eunpyeong-gu",
+      "type": "hiking",
+      "difficulty": "Hard",
+      "length": "6",
+      "description": "Yongma Mountain is a small mountain located in the eastern part of Seoul. It is a popular hiking destination for locals and tourists alike. The mountain offers a variety of hiking trails that cater to all skill levels, from beginners to experienced hikers. The mountain is also home to a number of temples and shrines, making it a great place to explore Korean culture and history. The mountain is easily accessible by public transportation, making it a convenient destination for a day trip from Seoul.",
+      "images": [
+        {
+          "id": 1,
+          "url": "/public/images/yongma/imagePlaceholder1.jpg"
+        },
+        {
+          "id": 2,
+          "url": "/public/images/yongma/imagePlaceholder2.jpg"
+        },
+        {
+          "id": 3,
+          "url": "/public/images/yongma/imagePlaceholder3.jpg"
+        }
+      ]
+    },
+    {
+      "id": 14,
+      "name": "Test Walking Trail",
+      "district": "Jungnang-gu",
+      "type": "walking",
+      "difficulty": "Hard",
+      "length": "6",
+      "description": "Yongma Mountain is a small mountain located in the eastern part of Seoul. It is a popular hiking destination for locals and tourists alike. The mountain offers a variety of hiking trails that cater to all skill levels, from beginners to experienced hikers. The mountain is also home to a number of temples and shrines, making it a great place to explore Korean culture and history. The mountain is easily accessible by public transportation, making it a convenient destination for a day trip from Seoul.",
+      "images": [
+        {
+          "id": 1,
+          "url": "/public/images/yongma/imagePlaceholder1.jpg"
+        },
+        {
+          "id": 2,
+          "url": "/public/images/yongma/imagePlaceholder2.jpg"
+        },
+        {
+          "id": 3,
+          "url": "/public/images/yongma/imagePlaceholder3.jpg"
+        }
+      ]
+    }
+  ]
+}

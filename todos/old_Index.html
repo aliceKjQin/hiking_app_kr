@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hiking in Korea</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="./app.js" defer></script>
+</head>
+<body>
+  <header>
+    <h1 class="title">Trails</h1>
+  </header>
+  <main>
+    <button id="wishlist-btn">
+      <span id="show-hide-wishlist">Show</span> Wishlist
+    </button>
+    <div id="wishlist-container">
+      <button class="btn" id="clear-wishlist-btn">Clear Wishlist</button>
+      <div id="trails-container"></div>
+      <div id="district-summary-container"></div>
+      <p>Total number of trails: <span id="total-trails">0</span></p>
+    </div>
+    <button class="filter-btn" id="filter-hiking-trails">Hiking Trails</button>
+    <button class="filter-btn" id="filter-walking-trails">Walking Trails</button>
+    <div id="trail-card-container"></div>
+  </main>
+</body>
+</html>
