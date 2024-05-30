@@ -1,7 +1,7 @@
 import { useState, useContext } from "react";
 import { FaMapMarker } from "react-icons/fa";
 import { Link, useLocation } from "react-router-dom";
-import { WishlistContext } from "../WishlistContext";
+import { WishlistContext } from "../contexts/WishlistContext";
 
 const TrailListing = ({ trail, isHome }) => {
   const [showFullDescription, setShowFullDescription] = useState(false);

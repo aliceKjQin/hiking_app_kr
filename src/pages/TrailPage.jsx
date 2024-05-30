@@ -2,7 +2,7 @@ import { useState, useEffect } from "react";
 import { Link, useParams } from "react-router-dom";
 import Spinner from "../components/Spinner";
 import { useContext } from "react";
-import { WishlistContext } from "../WishlistContext";
+import { WishlistContext } from "../contexts/WishlistContext";
 import { FaArrowLeft } from "react-icons/fa";
 
 const TrailPage = () => {
@@ -36,7 +36,8 @@ const TrailPage = () => {
             to="/trails"
             className="text-emerald-700 hover:text-emerald-800 flex items-center"
           >
-            <FaArrowLeft className="mr-1" />Back to Trails Listings
+            <FaArrowLeft className="mr-1" />
+            Back to Trails Listings
           </Link>
         </div>
       </section>
@@ -51,7 +52,10 @@ const TrailPage = () => {
                 <div className="text-gray-500 mb-4 flex align-middle justify-center md:justify-start">
                   <i className="fa-solid fa-location-dot text-lg text-orange-700 mr-2"></i>
                   <p className="text-orange-700">{trail.district}</p>
-                  <button className="bg-emerald-500 hover:bg-emerald-600 text-white px-3 py-1 rounded-lg ml-auto" onClick={()=>addToWishlist(trail)}>
+                  <button
+                    className="bg-emerald-500 hover:bg-emerald-600 text-white px-3 py-1 rounded-lg ml-auto"
+                    onClick={() => addToWishlist(trail)}
+                  >
                     Add to wishlist
                   </button>
                 </div>
@@ -73,19 +77,17 @@ const TrailPage = () => {
             </main>
             {/* // Placeholder to display three images */}
             <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
-                {trail.images.map(image => {
-                    return (
-                        <img
-                        key={image.id}
-                        src={image.url}
-                        alt={trail.name}
-                        className="w-full rounded-lg shadow-md"
-                        />
-                    );
-                    
-                })}
-              </div>
-
+              {trail.images.map((image) => {
+                return (
+                  <img
+                    key={image.id}
+                    src={image.url}
+                    alt={trail.name}
+                    className="w-full rounded-lg shadow-md"
+                  />
+                );
+              })}
+            </div>
           </div>
         </div>
       </section>
