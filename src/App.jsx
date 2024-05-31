@@ -11,6 +11,7 @@ import { Auth } from "@supabase/auth-ui-react";
 import AuthProvider from "./contexts/AuthContext";
 import LoginPage from "./pages/auth/LoginPage";
 import SignoutPage from "./pages/auth/SignoutPage";
+import ProtectedRoute from "./components/ProtectedRoute";
 
 const App = () => {
   return (
@@ -18,19 +19,19 @@ const App = () => {
       <AuthProvider>
         <WishlistProvider>
           <Router>
-            <Routes>
-              <Route path="/" element={<MainLayout />}>
-                <Route path="/" element={<HomePage />} />
-                <Route path="/trails" element={<TrailsPage />} />
-                <Route path="/trails/:id" element={<TrailPage />} />
-                <Route path="*" element={<NotFoundPage />} />
-                <Route path="/login" element={<LoginPage />} />
-                <Route path="/signout" element={<SignoutPage />} />
-                <Route path="/wishlist" element={<MyWishlistPage />} />
-                <Route path="/auth/confirm" element={<ConfirmEmailPage />} />
-              </Route>
-            </Routes>
-          </Router>
+              <Routes>
+                <Route path="/" element={<MainLayout />}>
+                  <Route path="/" element={<HomePage />} />
+                  <Route path="/trails" element={<TrailsPage />} />
+                  <Route path="/trails/:id" element={<TrailPage />} />
+                  <Route path="*" element={<NotFoundPage />} />
+                  <Route path="/login" element={<LoginPage />} />
+                  <Route path="/signout" element={<SignoutPage />} />
+                  <Route path="/wishlist" element={<ProtectedRoute><MyWishlistPage /></ProtectedRoute>} /> 
+                  <Route path="/auth/confirm" element={<ConfirmEmailPage />} />
+                </Route>
+              </Routes>
+            </Router>
         </WishlistProvider>
       </AuthProvider>
     </>
