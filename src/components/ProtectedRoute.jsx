@@ -1,16 +1,15 @@
-import { useLocation, Navigate } from 'react-router-dom';
-import { useAuth } from '../contexts/AuthContext';
+import { Navigate } from "react-router-dom";
+import { useAuth } from "../contexts/AuthContext";
 
 function ProtectedRoute({ children }) {
-  const location = useLocation();
   const { user } = useAuth();
 
   if (!user) {
-    return <Navigate to="/login" state={{ from: location.pathname}} replace />;
+    alert("You need to be logged in to view this page.");
+    return <Navigate to="/login?next=trails" replace={true}/>;
   }
 
   return children;
 }
-
 
 export default ProtectedRoute;

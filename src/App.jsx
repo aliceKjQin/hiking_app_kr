@@ -7,7 +7,6 @@ import TrailPage from "./pages/TrailPage";
 import MyWishlistPage from "./pages/MyWishlistPage";
 import ConfirmEmailPage from "./pages/auth/ConfirmEmailPage";
 import { WishlistProvider } from "./contexts/WishlistContext";
-import { Auth } from "@supabase/auth-ui-react";
 import AuthProvider from "./contexts/AuthContext";
 import LoginPage from "./pages/auth/LoginPage";
 import SignoutPage from "./pages/auth/SignoutPage";

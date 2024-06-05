@@ -27,11 +27,10 @@ const AuthProvider = ({ children }) => {
     };
   }, []);
 
-  // In case we want to manually trigger a signIn (instead of using Auth UI)
-  const signIn = async () => {
-    const { data, error } = await supabase.auth.signInWithOAuth({
-      provider: "google",
-      options: { skipBrowserRedirect: false },
+  const signIn = async (email) => {
+    const { data, error } = await supabase.auth.signInWithOtp({
+      email,
+    //   options: { emailRedirectTo: 'http://localhost:5173/trails' },
     });
     console.log("data: ", data);
     console.log("error: ", error);

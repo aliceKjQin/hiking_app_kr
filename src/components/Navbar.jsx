@@ -33,15 +33,14 @@ const Navbar = () => {
                 <NavLink to="/trails" className={linkClass}>
                   Trails
                 </NavLink>
+                <NavLink to="/wishlist" className={linkClass}>
+                  My Wishlist
+                </NavLink>
+                {/* Display sign out if user existed else login */}
                 {user ? (
-                  <>
-                    <NavLink to="/wishlist" className={linkClass}>
-                      My Wishlist
-                    </NavLink>
-                    <NavLink to="/signout" className={linkClass}>
-                      Sign out
-                    </NavLink>
-                  </>
+                  <NavLink to="/signout" className={linkClass}>
+                    Sign out
+                  </NavLink>
                 ) : (
                   <NavLink to="/login" className={linkClass}>
                     Login

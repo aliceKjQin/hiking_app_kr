@@ -1,27 +1,21 @@
 import { useState } from "react";
-import supabase from "../../utils/supabase";
+import { useAuth } from "../../contexts/AuthContext";
 
 function LoginPage() {
   const [email, setEmail] = useState("");
   const [message, setMessage] = useState("");
+  const { signIn } = useAuth();
 
   const handleLogin = async (e) => {
     e.preventDefault();
-
-    const { error } = await supabase.auth.signInWithOtp({
-      email,
-      options: {
-        // set this to false if you do not want the user to be automatically signed up
-        shouldCreateUser: false,
-        // emailRedirectTo: 'http://localhost:5173',
-      },
-    });
+    const {data, error} = await signIn(email)
     if (error) {
       setMessage(`Error: ${error.message}`);
     } else {
       setMessage("Check your email for the login link!");
+      console.log(data)
     }
-  };
+  }
 
   return (
     <div>
