@@ -48,7 +48,7 @@ const AuthProvider = ({ children }) => {
   };
 
   return (
-    <AuthContext.Provider value={{ user, signIn, signOut }}>
+    <AuthContext.Provider value={{ user, session, signIn, signOut }}>
       {!loading ? children : `<div>Loading...</div>`}
     </AuthContext.Provider>
   );

@@ -2,7 +2,7 @@ import { useEffect } from "react";
 import { useNavigate, useSearchParams, useLocation } from "react-router-dom";
 import supabase from "../../utils/supabase";
 
-// handle sign in process
+// handle sign in and redirect process after the user clicks the magic link to login/sign-up
 const ConfirmEmailPage = () => {
   const navigate = useNavigate();
   const location = useLocation();
@@ -18,7 +18,6 @@ const ConfirmEmailPage = () => {
       try {
         if (error) {
           console.error("Error verifying email:", error.message);
-          alert("Error verifying email. Please try again.");
           navigate("/login"); // Redirect to login page on error
         } else  {
             navigate('/trails'); // Navigate the user to trails page on success

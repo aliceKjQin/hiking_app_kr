@@ -8,12 +8,11 @@ function LoginPage() {
 
   const handleLogin = async (e) => {
     e.preventDefault();
-    const {data, error} = await signIn(email)
+    const {error} = await signIn(email)
     if (error) {
       setMessage(`Error: ${error.message}`);
     } else {
       setMessage("Check your email for the login link!");
-      console.log(data)
     }
   }
 
